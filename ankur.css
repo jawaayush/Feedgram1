@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    
+    
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    height: 350px;
+}
+  h2{
+      background-color:lightgray;
+  }
